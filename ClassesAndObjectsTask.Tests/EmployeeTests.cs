@@ -148,7 +148,7 @@ namespace ClassesAndObjectsTask.Tests
         {
             return Assembly.Load("ClassesAndObjectsTask");
         }
-
+          
         private FieldInfo[] GetAllNonPublicFields(Assembly assemblyContent)
         {
             var employeeType = assemblyContent.GetTypes()
